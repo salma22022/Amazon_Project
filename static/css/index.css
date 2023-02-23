@@ -1,0 +1,313 @@
+/* styling of container */
+.wholepage{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    overflow: hidden;
+    
+}
+.container{
+    width: 100vw;
+    height: 200vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* styling of box whichcontain cards */
+.cards{
+   width:80vw;
+   background-color: rgb(246, 246, 246);
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   justify-content: space-evenly;
+   align-items: center;
+}
+/* styling for each card */
+.card{
+    background-color: white;
+    width: 14vw;
+    height: 70vh;
+   font-size: 0.9rem;
+}
+/* styling of images */
+.img{
+    width:14vw;
+    height: 35vh;
+}
+/* style  name of product */
+.lnk{
+    color:black;
+}
+.lnk:hover{
+    color:#f1a325; 
+}
+/* styling all the price */
+.price{
+    display: flex;
+    width: 8vw;
+    
+}
+.eg{
+    align-self: flex-start;
+    padding-top: 0.7vh;
+}
+.money{
+    align-self: center;
+    font-size: 2em;
+    /* padding-left: 0.1vw; */
+}
+.zeros{
+    align-self: flex-start;
+    padding-top: 0.7vh;
+    /* padding-left: 0.1vw; */
+}
+
+/* styling the star icon*/
+#orange-star
+{
+    color:orange;
+}
+
+
+/* styling number of reviews*/
+
+#number-of-reviews
+{
+    color:#3F979B;
+  
+}
+/* styling number of reviews to diffrent color when hover*/
+#number-of-reviews:hover
+{
+    color:#AA5656;
+}
+/* removig underline in the links of number of reviews */
+a{
+    text-decoration: none;
+}
+/* styling no. of stocks left */
+#stock
+{
+  color:#850000;
+}
+
+
+/*                   mediaquery for ipad mini                       */
+@media (min-width:700px) and (max-width:1280px) {
+    .wholepage{
+        width: 200vw;
+        position: relative;
+        font-size:larger;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        min-width: 250vw;
+        height: 35vh;
+        display: flex;
+        
+        font-family: 'Open Sans', sans-serif;
+    }
+    .nav-top{
+        justify-content: center;
+        width: 100%;
+        height: 17vh !important;
+        background-color: #131921;   
+        align-items: center;
+    }
+    /* delivery  */
+    .deliver-nav{
+        position: relative;
+        right: 15vw;
+    }
+    /* div for search&select and logo search  */
+    .sc-nav{
+        position: relative;
+        right: 3vw;
+        width:43vw;
+        height: 30vh;
+    }
+    /* select  */
+    .all-nav{
+       position: absolute;
+       left: -20vw;
+       height: 30vh;
+       width: 22vw !important;
+       font-size: large;
+    }
+    /* search  */
+    .space-nav{
+        position: absolute;
+        height: 130%;
+        right: 10vw;
+        height: 5.4vh !important;
+        
+    }
+    /* logo search */
+    .small{
+        position: relative !important;
+        left: 22vw;
+        top:1.3vh;
+        height: 5.4vh !important; 
+    }
+    /* for font size of all links  */
+    .nav a{
+        font-size: larger;
+    } 
+    /* EN */
+    #posEN{
+        position: relative;
+        right: 4vw;
+        font-size: larger !important;
+    }
+    .text-nav{
+        width: 17vw !important;
+        position: relative;
+    }
+    .text-nav a{
+        width: 10vw;
+        font-size: large !important;
+    }
+    /* kelmet order  */
+    #posorder{
+        position: relative;
+        left: 3vw;
+    }
+/* logo el basket */
+    #poscard{
+        position: relative;
+        left: 0.5vw;
+        display: flex;
+        flex-direction: row;
+    }
+    .blu{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .nav-bottom{
+        display: flex;
+        justify-content: space-evenly !important;
+        min-width: 250vw;
+        font-size: x-large !important;
+    }
+    .rr-nav{
+        min-width: 2vw !important;
+    }
+    .container{
+        width: 190vw;
+        height: 500vh;
+       position: relative;
+       top: 3vh;
+    }
+    .side{
+        flex-direction: flex-start;
+        width:40vw ;
+        height: 75vh;
+    }
+    .tgp{
+        height: 1vh;
+    }
+    .txtelside{
+        position: relative;
+        top: 3vh;
+        font-size:x-large;
+    }
+    .container{
+        position: relative;
+        left: 30vw;
+    }
+    .cards{
+        width: 170vw;
+        flex-direction: space-evenly;
+        align-items: center;
+       
+    }
+    .card{
+        width:40vw;
+        height: 100vh;
+        font-size: x-large;
+    }
+    .img{
+        height: 50vh;
+        width: 40vw;
+    }
+    .innEligible a{
+        font-size: large;
+    }
+    .innDelivery a{
+        font-size: large;
+    }
+    .innCategory a{
+        font-size: large;
+    }
+    .innApparel a{
+        font-size: large;
+    }
+   .foot{
+    position: relative;
+    top: 3vh;
+    height: 153vh;
+    min-width: 250vw;
+    font-size:6em !important;
+   }
+   .flx-footer{
+    min-width: 250vw;
+   }
+   .logo-footer{
+    min-width: 250vw;
+    min-height: 7vh;
+    display: flex;
+    justify-content: space-evenly !important;
+    justify-content: center ;
+
+   }
+   .back{
+    font-size: 0.29em  !important;
+   }
+   .row{
+    font-size:1em !important ;
+    position: relative;
+    top: 1.7vh;
+   }
+  .a-footer{
+    font-size:1.4em !important ;
+   }
+   .egypt-footer{
+    min-width: 24vw !important;
+   }
+   .egypt-footer p{
+    font-size: 1.7em !important;
+   }
+   .misr-footer{
+    min-width: 6.5vw;
+    position: relative;
+    top: 0.7vh;
+   }
+   .lang-footer{
+    min-width: 24vw !important;
+   }
+   .btn-footer{
+    font-size: 1.2em;
+    height: 3vh;
+    width: 21vw;
+    top: 7px;
+    left: 9px;
+   }
+   .amaz-footer{
+   min-width: 20vw;
+   }
+   .lang-footer p{
+    font-size: 1.7em !important;
+   }
+  .lo-footer{
+    font-size: 1em;
+  }
+     .footer{
+        width: 100%;
+        display: flex;
+     }  
+   }
+

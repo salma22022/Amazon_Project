@@ -1,0 +1,80 @@
+
+
+/* properties bta3 el sidepart kolha */
+.side {    
+    display: flex;
+    flex-direction: column;  
+    align-content: flex-start; 
+    color: black;                   
+    width: 18.75rem;
+    text-transform: capitalize;
+    margin-bottom: 7.5rem!important;
+    background-color: #ffffff;
+    
+   
+}
+
+
+.a-side {
+    /* to delete underline from link  */
+    text-decoration: none;
+    /*color black ====> to make all words in link black  */
+    color: black;
+}
+.a-side:hover{
+    /* Select and style a link when you mouse over it */
+    color:brown;
+}
+
+/* 34an yb2a nfs bold el font bta3 el mok3 */
+.inEligible {
+    font-weight: 550;
+}
+/* class Apparel 34an ynsk elkalam benha we ben fo2a we t7tha we elmsafa ben el kalam */
+.Apparel {
+    line-height: 27px;
+}
+ /* class innApparel to control properties of the unordered list  fe el position we el line  */
+.innApparel {
+    line-height: 23px;
+}
+.in-avg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* to contol fe el &UP  */
+.shapeup {
+    font-size:0.7em;
+}
+/* Grouping Multiple Selectors 34an kol el items de feha nfs el 5oas */
+.inFulfilled,
+.inDelivery,
+.inCategory,
+.inApparel,
+.p
+{
+        font-weight: bold;
+}
+.innEligible,
+.innDelivery,
+.innCategory,
+.innApparel
+{
+    font-size: 14px;
+}
+
+.ul-side
+{
+/* ======> To Make  list without bullets */
+    list-style:none;
+}
+.Category {
+    line-height: 22px;
+}
+
+
+
+
+
+
